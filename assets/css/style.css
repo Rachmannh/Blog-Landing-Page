@@ -73,11 +73,17 @@ a.active {
   top: 25%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
+}
+
+.overlay-content a {
+  font-family: var(--font-fam-heading);
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .overlay a {
-  padding: 8px;
+  padding: 35px;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
