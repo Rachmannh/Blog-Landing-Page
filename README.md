@@ -1,6 +1,6 @@
 # [Youth Organization](https://rachmannh.github.io/Karang-Taruna/)
 
-[Blog Home](https://rachmannh.github.io/Karang-Taruna/) is a basic blog homepage HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+[Website for Youth Organization](https://rachmannh.github.io/Karang-Taruna/) is a basic blog homepage HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
 ## Preview
 
