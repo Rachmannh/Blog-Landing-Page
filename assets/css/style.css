@@ -60,7 +60,20 @@ a.active {
 .bottom-bar {
   width: 35px;
   height: 5px;
-  background-color: #333;
   margin: 6px 0;
   transition: 0.4s;
+}
+
+.change .top-bar {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .middle-bar {
+  opacity: 0;
+}
+
+.change .bottom-bar {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
