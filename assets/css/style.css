@@ -165,7 +165,7 @@ a.active {
   height: 500px !important;
   border: transparent;
   border-radius: 20px !important;
-  background-image: url("/assets/img/image-2.jpg");
+  background-image: url("/assets/img/image-2.jpg") !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +186,7 @@ a.active {
   height: 500px !important;
   border: transparent;
   border-radius: 20px !important;
-  background-image: url("/assets/img/image-2.jpg");
+  background-image: url("/assets/img/image-2.jpg") !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
