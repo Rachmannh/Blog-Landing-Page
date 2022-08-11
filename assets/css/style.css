@@ -76,7 +76,7 @@ a.active {
   border-radius: 1px;
   opacity: 1;
   left: 0;
-  transform: rotate(0deg);
+  transform: rotate(0deg) !important;
   transition: 0.25s ease-in-out;
 }
 
