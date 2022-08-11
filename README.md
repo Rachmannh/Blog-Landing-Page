@@ -1,12 +1,12 @@
-# [Start Bootstrap - Blog Home](https://startbootstrap.com/template/blog-home/)
+# [Karang Taruna](https://rachmannh.github.io/Karang-Taruna/)
 
-[Blog Home](https://startbootstrap.com/template/blog-home/) is a basic blog homepage HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+[Blog Home](https://rachmannh.github.io/Karang-Taruna/) is a basic blog homepage HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
 
 ## Preview
 
-[![Blog Home Preview](https://assets.startbootstrap.com/img/screenshots/templates/blog-home.png)](https://startbootstrap.github.io/startbootstrap-blog-home/)
+[![Blog Home Preview](https://assets.startbootstrap.com/img/screenshots/templates/blog-home.png)](https://rachmannh.github.io/Karang-Taruna/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-blog-home/)**
+**[View Live Preview](https://rachmannh.github.io/Karang-Taruna/)**
 
 ## Status
 
