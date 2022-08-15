@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --heading-font: "Source Sans Pro", sans-serif;
+}
+
+body {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #fbfbf2;
+    font-family: var(--heading-font);
+}
+
+/* Navbar */
+
+.navbar-expand-md {
+    position: relative;
+    background-color: #fbfbf2 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-right: 40px;
+}
+
+/* Navbar End */
+
+/* Hero */
+
+.hero-heading h1 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+/* Hero End */
