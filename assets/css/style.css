@@ -1,45 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
 html {
-    overflow-x: hidden;
-    user-select: none;
-    scroll-behavior: smooth;
+ overflow-x: hidden;
+ user-select: none;
+ scroll-behavior: smooth;
 }
 
 :root {
-    --heading-font: "Source Sans Pro", sans-serif;
+ --heading-font: "Source Sans Pro", sans-serif;
 }
 
 body {
-    position: relative;
-    width: auto;
-    height: auto;
-    background-color: #fbfbf2;
-    font-family: var(--heading-font);
+ position: relative;
+ width: auto;
+ height: auto;
+ background-color: #0f0e17;
+ color: #fffffe;
+ font-family: var(--heading-font);
 }
 
 /* Navbar */
 
 .navbar-expand-md {
-    position: relative;
-    background-color: #fbfbf2 !important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 4px -1px,
-        rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
-    z-index: 2;
+ position: relative;
+ background-color: #0f0e17 !important;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 4px -1px,
+  rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+ z-index: 2;
 }
 
 .navbar-brand {
-    font-size: 24px;
-    font-weight: 600;
+ font-size: 24px;
+ font-weight: 600;
+ color: #fffffe;
+}
+
+.navbar-brand:hover {
+ color: #fffffe;
 }
 
 .nav-link {
-    font-size: 16px;
-    margin-right: 40px;
+ font-size: 16px;
+ margin-right: 40px;
+ color: #fffffe;
+}
+
+.nav-link:hover {
+ color: #fffffe;
+}
+
+.social-media {
+ color: #fffffe;
+ font-size: 28px;
+ padding-right: 30px;
+}
+
+.social-media:hover {
+ transform: rotate(20deg) !important;
+ transition: 0.2s;
+ color: #fffffe;
+}
+.social-media {
+ color: #fffffe;
+}
+
+.active {
+ color: #fffffe !important;
 }
 
 /* Navbar End */
@@ -47,38 +77,61 @@ body {
 /* Hero */
 
 #hero {
-    width: auto;
-    height: 250px;
-    background-image: linear-gradient(to right, #5c73b9, #b330e1);
+ width: auto;
+ height: 280px;
+ background-image: linear-gradient(to right, #f25f4c, #e53170);
 }
 
 .hero-heading {
-    padding: 65px;
+ padding: 75px;
 }
 
 .hero-heading h1 {
-    text-align: center;
-    padding: 30px;
-    font-size: 44px;
-    font-weight: 600;
-    color: #fbfbf2;
+ text-align: center;
+ padding: 30px;
+ font-size: 44px;
+ font-weight: 600;
+ color: #fbfbf2;
 }
 
 #image-1 {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    width: 200px;
-    height: 200px;
-    z-index: 1;
+ position: absolute;
+ top: 80px;
+ right: 100px;
+ width: 200px;
+ height: 200px;
+ z-index: 1;
 }
 
 #image-2 {
-    position: absolute;
-    top: 65px;
-    left: 100px;
-    width: 200px;
-    height: 200px;
+ position: absolute;
+ top: 95px;
+ left: 100px;
+ width: 200px;
+ height: 200px;
 }
 
 /* Hero End */
+
+/* Article */
+
+.article {
+ text-decoration: none;
+}
+
+.article-cards {
+ width: auto;
+ height: auto;
+ border-radius: 20px;
+ background-color: #0f0e17;
+ border: 3px solid #fffffe;
+}
+
+.artcile-images {
+ margin: 10px;
+ width: 320px;
+ height: 320px;
+ border-radius: 15px;
+}
+
+/* Article End */
