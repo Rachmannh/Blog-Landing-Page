@@ -10,12 +10,10 @@
 
 ## About
 
-Blog Landing Page was created by
-**[Rachman Nul Hakim](https://github.com/Rachmannh)**.
+Blog Landing Page was created by :
 
--   <https://github.com/Rachmannh>
--   <https://twitter.com/davidmillerhere>
--   <https://github.com/davidtmiller>
+-   **[Rachman Nul Hakim](https://github.com/Rachmannh)**.
+-   **[Danang Estutomoaji](https://github.com/danangtomo)**.
 
 Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
