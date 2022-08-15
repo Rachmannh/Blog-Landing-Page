@@ -1,6 +1,6 @@
-# [Youth Organization](https://rachmannh.github.io/Karang-Taruna/)
+# [Blog | Landing Page](https://rachmannh.github.io/Karang-Taruna/)
 
-[Website for Youth Organization](https://rachmannh.github.io/Blog-Landing-Page/) is a basic blog homepage HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+[Blog | Landing Page](https://rachmannh.github.io/Blog-Landing-Page/)
 
 ## Preview
 
@@ -10,14 +10,10 @@
 
 ## About
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Blog Landing Page was created by
+**[Rachman Nul Hakim](https://github.com/Rachmannh)**.
 
--   <https://startbootstrap.com>
--   <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
--   <https://davidmiller.io>
+-   <https://github.com/Rachmannh>
 -   <https://twitter.com/davidmillerhere>
 -   <https://github.com/davidtmiller>
 

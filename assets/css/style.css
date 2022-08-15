@@ -29,6 +29,7 @@ body {
     background-color: #fbfbf2 !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 4px -1px,
         rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+    z-index: 2;
 }
 
 .navbar-brand {
@@ -45,13 +46,39 @@ body {
 
 /* Hero */
 
+#hero {
+    width: auto;
+    height: 250px;
+    background-image: linear-gradient(to right, #5c73b9, #b330e1);
+}
+
 .hero-heading {
-    margin-top: 80px;
+    padding: 65px;
 }
 
 .hero-heading h1 {
+    text-align: center;
+    padding: 30px;
     font-size: 44px;
     font-weight: 600;
+    color: #fbfbf2;
+}
+
+#image-1 {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+#image-2 {
+    position: absolute;
+    top: 65px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 /* Hero End */
