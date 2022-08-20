@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  user-select: none;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+:root {
+  --bg-color: #0f0e17;
+  --heading-color: #fffffe;
+  --paragraph-color: #a7a9be;
+  --button-color: #ff8906;
+  --button-text: #fffffe;
+  --stroke-color: black;
+  --secondary-color: #f25f4c;
+  --tertiary-color: #e53170;
+  --heading-font: "Karla", sans-serif;
+  --paragraph-font: "Inconsolata", monospace;
+}
+
+body {
+  position: relative;
+  width: auto;
+  height: auto;
+  font-family: var(--heading-font) !important;
+  background-color: var(--bg-color) !important;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px !important;
+}
+
+.navbar-brand {
+  color: var(--heading-color) !important;
+}
+
+.nav-link {
+  position: relative;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  color: var(--heading-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+  transition: 0.6s;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
+
+.dropdown-item:hover {
+  background-color: #f25f4c2a !important;
+}
+
+.social-media a {
+  margin: 0 10px 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--heading-color);
+}
+
+.social-media a:hover {
+  color: var(--secondary-color);
+  transition: 0.6s;
+}
