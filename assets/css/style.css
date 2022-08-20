@@ -1,136 +1,31 @@
 * {
- margin: 0;
  padding: 0;
+ margin: 0;
  box-sizing: border-box;
 }
 
-html {
- overflow-x: hidden;
- user-select: none;
- scroll-behavior: smooth;
-}
-
 :root {
- --heading-font: "Source Sans Pro", sans-serif;
- --background: #0f0e17;
- --headline: #fffffe;
- --paragraph: #a7a9be;
- --button: #ff8906;
- --button-text: #fffffe;
+ --first-font: "Karla", sans-serif;
+ --second-font: "Inconsolata", monospace;
+ --background-color: #eff0f3;
+ --heading-color: #0d0d0d;
+ --paragraph-color: #2a2a2a;
+ --button-color: #ff8e3c;
+ --button-text: #0d0d0d;
 }
 
 body {
- position: relative;
- width: auto;
- height: auto;
- background-color: #0f0e17;
- color: #fffffe;
- font-family: var(--heading-font);
+ font-family: var(--first-font) !important;
+ background-color: var(--background-color) !important;
+ color: var(--heading-color) !important;
 }
 
 /* Navbar */
 
-.navbar-expand-md {
- background-color: #0f0e17 !important;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 4px -1px,
-  rgba(0, 0, 0, 0.3) 0px 1px 1px -1px;
+.navbar-toggler {
+ box-shadow: none !important;
+ outline: 0;
+ border: transparent !important;
 }
 
-.navbar-brand {
- font-size: 24px;
- font-weight: 600;
- color: #fffffe;
-}
-
-.navbar-brand:hover {
- color: #fffffe;
-}
-
-.nav-link {
- font-size: 16px;
- margin-right: 20px;
- color: #fffffe;
-}
-
-.nav-link:hover {
- color: #fffffe;
-}
-
-.active {
- color: #fffffe !important;
-}
-
-.social-media {
- display: flex;
- justify-content: center !important;
- align-items: center !important;
-}
-
-.social-media a {
- font-size: 15px;
- color: #fffffec5;
- text-decoration: none;
- padding: 10px;
-}
-
-.social-media a:hover {
- color: #fffffe;
- transform: translateY(-3px);
- transition: 0.4s;
-}
-
-/* Navbar End */
-
-/* Hero */
-
-.hero-content a {
- text-decoration: none;
-}
-
-.hero-card {
- background-color: transparent;
- border-color: transparent;
-}
-
-.hero-card img {
- border-radius: 15px;
-}
-
-.hero-card-body h1 {
- font-size: 34px;
- font-weight: 600;
- color: var(--headline);
-}
-
-.hero-card-body p {
- font-size: 16px;
- font-weight: 400;
- color: var(--paragraph);
-}
-
-.text-bg-success {
- padding: 6px 20px 6px 20px;
- text-align: center;
-}
-
-.text-bg-danger {
- padding: 6px 20px 6px 20px;
- text-align: center;
-}
-
-/* Hero End */
-
-/* Technology */
-
-.technology h1 {
- font-size: 34px;
- line-height: 24px;
- font-weight: 600;
-}
-
-.technology a {
- text-decoration: none;
- color: var(--paragraph);
-}
-
-/* Technology End */
+/* End Navbar */

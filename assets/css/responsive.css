@@ -1,18 +1,3 @@
 /* Mobile View */
 @media screen and (max-width: 600px) {
-    #hero {
-        width: auto;
-        height: 100px;
-        background-image: linear-gradient(to right, #f25f4c, #e53170);
-    }
-    .hero-heading {
-        padding: 5px;
-    }
-    .hero-heading h1 {
-        font-size: 26px;
-    }
-    #image-1,
-    #image-2 {
-        display: none;
-    }
 }
