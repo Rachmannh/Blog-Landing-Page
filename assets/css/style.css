@@ -38,13 +38,9 @@ body.dark {
   height: 35px;
 }
 
-.custom-bg {
-  background-color: #4f1271 !important;
-}
-
 #demo {
   position: relative;
-  color: var(--bg-color);
+  color: var(--bg-dark);
   font-weight: 600;
   margin-top: 13px;
 }
@@ -59,10 +55,6 @@ body.dark {
 
 /* Navbar */
 
-.bg-custom {
-  background-color: #783f8e !important;
-}
-
 .navbar-brand {
   font-weight: 700;
 }
@@ -70,6 +62,31 @@ body.dark {
 .nav-item {
   margin: 0 10px 0 10px;
   font-weight: 600;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  animation: opacity 300ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+
+  80% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .checkbox {
