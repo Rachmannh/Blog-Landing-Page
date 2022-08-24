@@ -39,11 +39,12 @@ body.dark {
 }
 
 .custom-bg {
-  background-color: var(--button-color) !important;
+  background-color: #4f1271 !important;
 }
 
 #demo {
   position: relative;
+  color: var(--bg-color);
   font-weight: 600;
   margin-top: 13px;
 }
@@ -57,6 +58,19 @@ body.dark {
 /* Prenav End */
 
 /* Navbar */
+
+.bg-custom {
+  background-color: #783f8e !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-item {
+  margin: 0 10px 0 10px;
+  font-weight: 600;
+}
 
 .checkbox {
   opacity: 0;
